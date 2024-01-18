@@ -1,0 +1,47 @@
+.bordered {
+    border: 2px dashed red;
+}
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+}
+
+.containerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerRight { 
+    display: flex;
+    gap: 30px;
+}
+.imgLogo {
+    width: 80px;
+    height: 80px;
+}
+
+.jumbo {
+    background-color: #7fffd4;
+    height: calc(100vh - 160px)
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+}
+
+.footer p {
+    margin-bottom: 0;
+    line-height: 60px;
+    margin-left: 50px;
+    font-size: 18px;
+}
