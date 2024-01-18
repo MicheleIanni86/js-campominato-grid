@@ -16,8 +16,8 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 
 ### Nelle FUNCTIONS:
 
-- Creo una funzione che genera la griglia con il ciclo for
 - Creo una funzione che genera le singole celle
+- Creo una funzione che genera la griglia con il ciclo for
 - Inserisco le celle generate nella griglia
 - Con return mando fuori il dato
 - Creo un bottone che richiama il risultato

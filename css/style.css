@@ -55,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .squarenine {
@@ -62,6 +63,10 @@
     height: calc(100% / 9);
     aspect-ratio: 1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .squareseven {
@@ -69,8 +74,22 @@
     height: calc(100% / 7);
     aspect-ratio: 1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.squareten.attiva {
+    background-color:aqua;
+}
+
+.squarenine.attiva {
+    background-color:aqua;
+}
+
+.squareseven.attiva {
+    background-color:aqua;
+}
 /* FOOTER */
 .footer {
     display: flex;

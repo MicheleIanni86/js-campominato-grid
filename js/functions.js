@@ -1,7 +1,12 @@
-function generaCell(numero) {
+// FUZNIONE PER GENERARE LA CELLA;
+function generaCell(cellDim) {
     const cell = document.createElement('div');
     cell.classList.add('squareten');
-    cell.innerHTML = numero;
+    cell.innerHTML = cellDim;
+    cell.addEventListener('click', function () {
+        cell.classList.toggle('attiva');
+    });
+
     return cell;
 }
 
