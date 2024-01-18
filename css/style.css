@@ -25,9 +25,50 @@
     height: 80px;
 }
 
-.jumbo {
+
+/* JUMBO */
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #7fffd4;
-    height: calc(100vh - 160px)
+    width: 100vw;
+    height: calc(100vh - 160px);
+}
+
+
+.jumbo {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.squareten {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squarenine {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
+
+.squareseven {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    aspect-ratio: 1;
+    border: 1px solid black;
 }
 
 /* FOOTER */
