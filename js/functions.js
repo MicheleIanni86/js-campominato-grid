@@ -15,11 +15,10 @@ function generaCell(cellDim, classe) {
     cell.innerHTML = cellDim;
     // click colore
     cell.addEventListener('click', function () {
+        const number = parseInt(cellDim);
+        console.log(number);
         cell.classList.toggle('attiva');
     });
 
     return cell;
 }
-
-
-

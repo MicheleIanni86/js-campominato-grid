@@ -6,6 +6,7 @@ let containerJumbo = document.querySelector('.jumbo');
 const buttonPlay = document.getElementById('play');
 const mod = document.getElementById('select');
 
+
 // Eventro al bottone per generare la griglia e la stampo su HTML
 buttonPlay.addEventListener('click', function () {
 
@@ -20,4 +21,5 @@ buttonPlay.addEventListener('click', function () {
     } else if (mod.value == 'easy') {
         generaGrid(100, 'squareten');
     }
+
 });
