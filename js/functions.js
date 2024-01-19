@@ -5,11 +5,17 @@ function generaCell(numCell, classe) {
     cell.innerHTML = numCell;
     // click colore
     cell.addEventListener('click', function () {
-        const number = parseInt(numCell);
-        console.log(number);
-        cell.classList.toggle('attiva');
-        if (bombs.includes(numCell)) {
-            cell.classList.add('bomb');
+        if (!isGameOver) {
+
+
+            const number = parseInt(numCell);
+            console.log(number);
+            cell.classList.toggle('attiva');
+            if (bombs.includes(numCell)) {
+                cell.classList.add('bomb');
+                isGameOver = 'Mi dispiace, hai cliccato una Bomba!';
+                alert(isGameOver);
+            }
         }
     });
 

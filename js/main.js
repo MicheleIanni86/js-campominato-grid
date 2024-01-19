@@ -8,7 +8,7 @@ const mod = document.getElementById('select');
 
 let bombs = [];
 
-let isgameGamer = false;
+let isGameOver = false;
 // Eventro al bottone per generare la griglia e la stampo su HTML
 buttonPlay.addEventListener('click', function () {
 
