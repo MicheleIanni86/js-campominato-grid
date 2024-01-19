@@ -91,6 +91,20 @@
 .squareseven.attiva {
     background-color:aqua;
 }
+
+.squareten.bomb {
+    background-color:red;
+}
+
+.squarenine.bomb {
+    background-color:red;
+}
+
+.squareseven.bomb {
+    background-color:red;
+}
+
+
 /* FOOTER */
 .footer {
     display: flex;
